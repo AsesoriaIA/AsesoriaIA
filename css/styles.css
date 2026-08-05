@@ -400,8 +400,8 @@ h1, h2, h3, h4 { font-family: var(--f-head); line-height: 1.15; }
 /* ── Footer ───────────────────────────────────────── */
 .footer { background: var(--azul-noche); border-top: 1px solid var(--panel-linea); padding-top: 56px; }
 .footer-inner { display: grid; grid-template-columns: 1.4fr 0.7fr 1fr; gap: 40px; padding-bottom: 40px; }
-.footer-brand { display: flex; gap: 14px; }
-.footer-brand img { width: 42px; }
+.footer-brand { display: flex; gap: 14px; align-items: flex-start; }
+.footer-brand img { width: 96px; height: auto; align-self: flex-start; filter: drop-shadow(0 2px 8px rgba(4, 3, 20, 0.4)); }
 .footer-brand strong { font-family: var(--f-head); font-size: 1.15rem; color: var(--blanco); }
 .footer-brand em { font-style: normal; color: var(--lima); }
 .footer-brand p { font-size: 0.85rem; color: var(--sub); margin-top: 6px; max-width: 320px; }
